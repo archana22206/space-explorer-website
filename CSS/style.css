@@ -1,0 +1,515 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+   font-family: Poppins, sans-serif;
+    background:#050816;
+    
+    text-transform: uppercase;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 5px;
+color :white;
+    background:#050816;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3e1c69;
+}
+    .navbar a {color:white;
+    font-size: 15px;
+    font-weight: bold;
+     text-decoration: none;
+font-family: Orbitron, sans-serif;}
+.navbar a.active{
+    color:#9381FF;
+    border-bottom:2px solid #9381FF;
+    padding-bottom:5px;
+}
+
+button{
+ padding: 10px 20px;
+  background-color:rgb(147, 129, 255);
+  border: none;
+  border-radius: 5px;
+    color:white;
+}
+button:hover{
+    background-color:white;
+    color:black;
+}
+.herosection{
+    background-image: url("../images/hero.jpg");
+    height: 400px;
+    width: 100%;
+   
+    
+    color :white;
+margin-bottom: 50px;
+    background-size:cover ;
+}
+.hero-msg h1{
+    padding-top: 50px;
+    font-size: 3rem;
+     margin-bottom :10px;
+}
+
+.hero-msg p{
+    text-transform: none;
+    margin-bottom:20px;
+
+}
+.hero-msg button{
+    padding: 10px 20px;
+    margin-top :30px; 
+  background-color:rgb(147, 129, 255);
+  border: none;
+  border-radius: 5px;
+    color:white;
+    text-transform: uppercase;
+}
+.hero-msg button:hover{
+    background-color:white;
+    color:black;
+}
+
+
+
+
+.cards{
+    margin-top: 50 px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    background-color: #050816;;
+}
+.box{
+
+   
+    border:2px solid   rgb(70, 52, 85);
+    border-radius :15px;
+    height: 250px;
+    width: 300px;
+    padding :20px 20px 20px 20px ;
+    margin:50px;
+    color :white;
+   background-color: #050816; 
+}
+.box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #9381FF;
+    transition:0.3s;
+
+}
+.boxcontent h5{
+    text-align:center;
+    color:rgb(147, 129, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.boximage{
+    height: 120px;
+    width: 120px;
+    
+    color :white;
+margin-top: 10px;
+margin-bottom: 20px;
+    background-size:cover;
+    
+    background-position: center;
+    
+}
+.boxcontent p{
+    text-align:center;
+    color:white;
+    font-size: 10px;
+text-transform: capitalize;
+}
+.foo{
+    margin-top: 60px;
+    height:80px;
+color :white;
+    background:#0d163c;
+
+}
+.heroabout{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 20px 30px 20px 30px;
+}
+.about-msg{
+     padding-top: 50px;
+    font-size: 1rem;
+    color:white;
+    
+     text-transform: capitalize;
+     width: 50%;
+}
+.about-msg p {
+    padding-top: 30px;
+}
+.abtimage{
+    height: 300px;
+    width: 35%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.pane{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid  rgb(147, 129, 255);
+    border-radius:10px;
+    flex-direction: row;
+    width:50%;
+    height:60px;
+    margin-left: 100px;
+    margin-bottom:50px;
+}
+.abcont h4{ color:white;
+font-size: 3 rem;}
+.abtbox{display: flex;
+    align-items: center;
+    gap: 15px;}
+.abcont p{ color: grey;
+    font-size : 1 rem;
+    text-transform: capitalize;
+}
+.abtbox i{
+    font-size:30px;
+    color:rgb(147, 129, 255);
+    margin-bottom: 10px;
+}
+.journey{
+      display:flex;
+    justify-content: space-evenly;
+    padding: 20px 30px 30px;
+    border: 1px solid  rgb(147, 129, 255);
+    border-radius:10px;
+    flex-direction: row;
+    width: 85%;
+    height: 300px;
+    margin-left: 100px;
+    background-image: url("../images/pane.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.timeline{
+    height: 100px;
+    width: 100px;
+
+}
+.image{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.image:hover{   transform:translateY(-10px);
+    box-shadow:0 0 20px #9381FF;
+    transition:0.3s;
+
+}
+
+.conte h5{ color:white;
+font-size: 15px;
+ text-transform: capitalize;
+ margin-top: 30px;
+}
+.conte p{ color:grey;
+font-size: 10px;
+ text-transform: capitalize;
+margin-top: 10px;} 
+.service{
+    display: flex;
+    background-image: url("../images/service.jpg");
+    background-size:cover;
+    margin-top: 40px;
+    width:100%;
+    height :600px;
+    justify-content: space-evenly;
+
+}
+.srbox{
+    border-radius: 15px;
+    margin-top: 100px;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+      transition: 0.3s;
+}
+.conts p{
+    color: whitesmoke;
+    text-transform: capitalize;
+
+}
+.images{
+    height:150px;
+    width: 150px;
+    border-radius: 15%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.srbox:hover{
+   
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #d4b05d;
+
+}
+.gallery-container{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    color:white;
+}
+
+.gallery-container img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    
+}
+.contact{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding :40px;
+    gap: 15px;
+    width:50%;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 12px;
+    border: 2px solid #9381ff;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact-form button{
+    background: #9381ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover{
+    background: #7b68ee;
+}
+.location{
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.location iframe{
+    border-radius: 15px;
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width:50%;
+    height: 20px;;
+}
+
+.cont i{
+    font-size: 20px;
+    color: rgb(147, 129, 255);
+}
+
+.ccont h6{
+    color: whitesmoke;
+    font-size: 1rem;
+    margin:5px;
+}
+
+.ccont p{
+    color: grey;
+    font-size: 1rem;
+    margin: 5px ;
+    text-transform: none;
+}
+
+/* 
+   TABLET VIEW
+ */
+
+@media screen and (max-width:768px){
+
+    .heroabout{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-msg,
+    .abtimage{
+        width:90%;
+    }
+
+    .pane{
+        width:90%;
+        margin:20px auto;
+    }
+
+    .journey{
+        width:90%;
+        margin:20px auto;
+        height:auto;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .service{
+        flex-wrap: wrap;
+        height:auto;
+        padding-bottom:40px;
+    }
+
+    .srbox{
+        margin-top:30px;
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .contact-form,
+    .location{
+        width:90%;
+    }
+
+    .con{
+        flex-direction: column;
+        gap:30px;
+        margin-top:30px;
+    }
+
+    .cont{
+        width:90%;
+        justify-content:center;
+    }
+}
+
+
+/* =========================
+   BASE STYLES (Desktop)
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: #050816;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================
+   TABLET (≤ 768px)
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+/* =========================
+   MOBILE (≤ 480px)
+========================= */
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
