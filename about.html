@@ -17,13 +17,23 @@
             <a href="services.html">services</a>
             <a href="gallery.html">gallery</a>
             <a href="contact.html">contact us</a>
-            <button>EXPLORE NOW!!</button>
-            
-        </div>
+            <button id="menu-btn">☰</button>
 
+    <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"class="active">About</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+    
+
+        </div>
+       
     
     </header>
-    <h3 style="color:white;text-align: center;text-decoration: underline rgb(147, 129, 255) 3px;"> about us</h3>
+    <h3 style="color:inherit;text-align: center;text-decoration: underline rgb(147, 129, 255) 3px;"> about us</h3>
     <div class="heroabout">
         
         <div class="about-msg">
@@ -37,17 +47,17 @@
     <div class="pane">
         <div class="abtbox">
             <i class="fa-solid fa-rocket"></i>
-            <div class="abcont"><h4>200+</h4>
+            <div class="abcont"><h1 class ="counter" data-target="200">+</h1>
                 <p>mission</p></div>
         </div>
         <div class="abtbox">
             <i class="fa-solid fa-globe"></i>
-            <div class="abcont"><h4>100+</h4>
+            <div class="abcont"><h1 class="counter" data-target="100">+</h1>
                 <p>projects </p></div>
         </div>
         <div class="abtbox">
             <i class="fa-solid fa-user-astronaut"></i>
-            <div class="abcont"><h4>500+</h4>
+            <div class="abcont"><h1 class="counter" data-target="500">+</h1>
                 <p>astronauts</p></div>
         </div>
     </div>
@@ -57,7 +67,7 @@
     
 
          <div class="timeline">
-            <h3 style ="color:rgb(147, 129, 255);text-align: center">1969</h3>
+            <h3  style ="color:rgb(147, 129, 255);text-align: center">1969</h3>
               <div class="image" style="background-image: url('images/ast.jpg');"></div>
                 <div class="conte">
                    <h5>moon landing</h5>
@@ -89,6 +99,7 @@
               <p> international space s
                 tation launched</p>
          </div>
+         
         </div>
         <div class="timeline">
             <h3 style ="color:rgb(147, 129, 255);text-align: center;">2020+</h3>
@@ -98,11 +109,15 @@
               <p> new missions
                  to mars and beyond</p>
         </div>
+       
         </div>
-
+ 
     </div>
     
-         
+
+          <button id="topBtn">
+    🚀
+    </button>
 
 
 
@@ -114,6 +129,7 @@
     
 </p></div>
  </footer>
+ <script src="app.js"></script>
     
 </body>
 </html>

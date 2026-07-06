@@ -17,31 +17,40 @@
             <a href="services.html">services</a>
             <a href="gallery.html">gallery</a>
             <a href="contact.html"class="active">contact us</a>
-            <button>EXPLORE NOW!!</button>
-            
+        <button id="menu-btn">☰</button>
+              
+
+    <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="gallery.html"class="active">gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul> 
+    <button id="theme-toggle">🌙</button>
         </div>
     
     </header>
 
-    <h3 style="color:white;text-align: center;text-decoration: underline rgb(147, 129, 255) 3px;"> contact us</h3> <br><br>
+    <h3 style="color:inherit;text-align: center;text-decoration: underline rgb(147, 129, 255) 3px;"> contact us</h3> <br><br>
      <h3 style="color:rgb(147, 129, 255);text-align: center;text-transform: capitalize;">get in touch</h3>
-    <p style="color:whitesmoke;text-align: center;text-transform: capitalize;">have questions or suggesstions? we'd love to hear from you</p>
+    <p style="color:inherit;text-align: center;text-transform: capitalize;">have questions or suggesstions? we'd love to hear from you</p>
 <div class="contact">
    
     
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
+    <form class="contact-form" id="contactform">
+        <input type="text"  id="name" placeholder="Your Name" required>
 
-        <input type="email" placeholder="Your Email" required>
+        <input type="email" id="email" placeholder="Your Email" required>
 
-        <input type="tel" placeholder="Phone Number">
+        <input type="tel" id="phone" placeholder="Phone Number">
 
-        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <textarea id="message" rows="5"  placeholder="Your Message" required></textarea>
 
         <button type="submit">Send Message</button>
     </form>
     <section class="location">
-    <h4 style="color:white;text-align: center;text-decoration: underline rgb(147, 129, 255) 3px;">Our Location</h4><br><br>
+    <h4 style="color:inherit;text-align: center;text-decoration: underline rgb(147, 129, 255) 3px;">Our Location</h4><br><br>
 
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497632.1325127385!2d77.29231040230371!3d12.987769307571995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1781367295375!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
@@ -68,7 +77,9 @@
 </div>
        
 
-
+<button id="topBtn">
+    🚀
+    </button>
 
 
 
@@ -78,5 +89,6 @@
       <p>                                 @ 2026 space explorer  hub. all rights are reserved                                           
 </p></div>
  </footer>
+ <script src="app.js"></script>
 </body>
 </html>

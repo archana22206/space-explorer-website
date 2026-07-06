@@ -16,8 +16,15 @@
             <a href="services.html">services</a>
             <a href="gallery.html">gallery</a>
             <a href="contact.html">contact us</a>
-            <button>EXPLORE NOW!!</button>
-            
+             <button id="menu-btn">☰</button>
+            <ul id="nav-links">
+        <li><a href="index.html"class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
         </div>
     
     </header>
@@ -29,8 +36,21 @@
            <button>start exploring</button>
         </div>
     </div>
-    <h3 style="color:white; text-align:center; text-decoration:underline solid rgb(104, 13, 104);">Our Universe</h3><br>
-    
+    <h3 style="color:inherit; text-align:center; text-decoration:underline solid rgb(104, 13, 104);">Our Universe</h3><br>
+    <div class="slider">
+
+    <button class="prev">&#10094;</button>
+
+    <div class="slides">
+        <img src="images/gal.jpg" class="slide active">
+        <img src="images/plan.jpg" class="slide">
+        <img src="images/mars.jpg" class="slide">
+        <img src="images/sat.jpg" class="slide">
+    </div>
+
+    <button class="next">&#10095;</button>
+
+</div>
     <div class="cards">
 
       
@@ -73,7 +93,9 @@
             <p>read stories of brave astronauts and their missions.</p>
         </div>
     </div>
- </div>
+ </div><button id="topBtn">
+    🚀
+    </button>
  <footer>
     <div class="foo">
     <h5>space 🚀 <br>explorer hub </h5> <br>
@@ -81,5 +103,6 @@
     
       </p></div>
  </footer>
+<script src="app.js"></script>
 </body>
 </html>
