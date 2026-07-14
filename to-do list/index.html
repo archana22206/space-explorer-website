@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+
+
+
+    
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+   
+
+   
+    <div class="heading">
+
+        <h1>
+            <i class="fa-solid fa-list-check"></i>
+            My Todo List
+        </h1>
+
+        <p>Organize your day, one task at a time ✨</p>
+
+    </div>
+
+    <div class="input-box">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="What do you want to do today?">
+
+        <button id="addBtn">
+            <i class="fa-solid fa-plus"></i>
+            Add
+        </button>
+
+    </div>
+
+    
+    <div class="filters">
+
+        <button class="filter active" data-filter="all">
+            <i class="fa-solid fa-list"></i>
+            All
+        </button>
+
+        <button class="filter" data-filter="active">
+            <i class="fa-regular fa-clock"></i>
+            Active
+        </button>
+
+        <button class="filter" data-filter="completed">
+            <i class="fa-solid fa-circle-check"></i>
+            Completed
+        </button>
+
+    </div>
+
+  
+    <ul id="taskList">
+
+        
+
+    </ul>
+
+   
+    <div class="progress-card">
+
+        <div class="progress-text">
+
+            <h3>Great Progress! 💪</h3>
+
+            <p>
+                <span id="completedCount">0</span> of
+                <span id="totalCount">0</span> tasks completed
+            </p>
+
+        </div>
+
+        <div class="progress-circle">
+
+            <span id="progressPercent">
+                0%
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
