@@ -1,10 +1,18 @@
- 🚀 Space Explorer Website
+  🚀 Space Explorer Hub
 
-A responsive multi-page website built using HTML and CSS.
+Space Explorer Hub is a responsive website built using **HTML, CSS, and JavaScript**. It provides an interactive experience to explore space-themed content while demonstrating modern web development concepts.
 
-## Features
+# ✨ Features
 
-* Responsive Design
+- Responsive Navigation Bar
+- Dark & Light Mode Toggle
+- Image Slider
+- Modal Popup
+- Animated Counters
+- Contact Form Validation
+- Back to Top Button
+- Fully Responsive Design
+ * Responsive Design
 * Navigation Bar
 * Hero Section
 * About Page
@@ -14,13 +22,12 @@ A responsive multi-page website built using HTML and CSS.
 * Google Maps Integration
 * Hover Effects and Animations
 
- ## Technologies Used
 
-* HTML5
-* CSS3
-* Flexbox
-* CSS Grid
-* Media Queries
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Pages
 
